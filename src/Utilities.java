@@ -10,4 +10,7 @@ public class Utilities {
                 && java.util.stream.IntStream.rangeClosed(2, (int) Math.sqrt(n))
                         .noneMatch(i -> n % i == 0);
     }
+    static boolean isEven(int n) {
+        return n % 2 == 0;
+    }
 }
