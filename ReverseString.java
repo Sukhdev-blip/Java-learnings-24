@@ -6,7 +6,7 @@ public class ReverseString {
 
         // Option 2
         String reversed = input.transform(s -> new StringBuilder(s).reverse().toString());
-        System.out.println(input);
+
         System.out.println(reversed);
     }
 }
