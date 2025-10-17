@@ -10,8 +10,8 @@ public class PredicateTest {
         List<Integer> even=numbers.stream().filter(isEven).toList();
         List<Integer> odd=numbers.stream().filter(isEven.negate()).toList();
 
-        System.out.println(even); // true
-        System.out.println(odd); // false
+        System.out.println(even); // even numbers
+        System.out.println(odd); // odd numbers
 
     }
 }
